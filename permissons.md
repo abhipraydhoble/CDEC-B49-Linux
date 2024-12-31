@@ -82,10 +82,6 @@ The directory `demo` is owned by user `root`. To change ownership to user `abhi`
    chown user:Grp demofile.txt
    ```
 
-# $${\color{blue}\textbf{Umask}}$$
-
-### $${\color{green}\textbf{Default Permissions}}$$
-The `umask` command is used to set default permissions for files and directories.
 
 #### $${\color{orange}\textbf{Root User:}}$$
 1. **File Permissions:** `644` → `rw- r-- r--`
@@ -97,3 +93,47 @@ The `umask` command is used to set default permissions for files and directories
 2. **Directory Permissions:** `775` → `rwx rwx r-x` 
 
 ---
+## **Root User**
+
+### File Permissions: $${\color{orange}\textbf{644}}$$ ($${\color{green}\textbf{rw- r-- r--}}$$)
+#### Symbolic Mode:
+```bash
+chmod u=rw,g=r,o=r demo.txt
+```
+#### Numeric Mode:
+```bash
+chmod 644 demo.txt
+```
+
+### Directory Permissions: $${\color{orange}\textbf{755}}$$ ($${\color{green}\textbf{rwx r-x r-x}}$$)
+#### Symbolic Mode:
+```bash
+chmod u=rwx,g=rx,o=rx <directory>
+```
+#### Numeric Mode:
+```bash
+chmod 755 <directory>
+```
+
+---
+
+## **Local User**
+
+### File Permissions: $${\color{orange}\textbf{664}}$$ ($${\color{green}\textbf{rw- rw- r--}}$$)
+#### Symbolic Mode:
+```bash
+chmod u=rw,g=rw,o=r demo.txt
+```
+#### Numeric Mode:
+```bash
+chmod 664 demo.txt
+```
+
+### Directory Permissions: $${\color{orange}\textbf{775}}$$ ($${\color{green}\textbf{rwx rwx r-x}}$$)
+#### Symbolic Mode:
+```bash
+chmod u=rwx,g=rwx,o=rx <directory>
+```
+#### Numeric Mode:
+```bash
+chmod 775 <directory>
