@@ -137,3 +137,7 @@ chmod u=rwx,g=rwx,o=rx <directory>
 #### Numeric Mode:
 ```bash
 chmod 775 <directory>
+
+
+---
+![image](https://github.com/user-attachments/assets/d2f676e1-65c1-480e-bd43-a173f90866da)
