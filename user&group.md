@@ -43,7 +43,7 @@ sudo passwd <username>
 #### List All Users
 ````
 cat /etc/passwd
-````
+```` 
 #### Important Files for Users
 
 **/etc/passwd**
