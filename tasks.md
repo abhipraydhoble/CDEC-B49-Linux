@@ -25,4 +25,13 @@
 9. Copy the `task2.txt` file to `/task3.txt` without using the `cp` command.
 
 ---
-
+User & Group Management:
+1. adduser raju shyam babu and kachraSeth assign passords to them
+2. create group herapheri
+3. add all three users into herapheri group
+4. set password for group
+5. make babu admin of group
+6. remove user kachraSeth from group
+7. delete group 
+8. delete all users with their home directory
+---
