@@ -35,3 +35,25 @@ User & Group Management:
 7. delete group 
 8. delete all users with their home directory
 ---
+## $${\color{brown}\textbf{Cron Jobs}}$$
+1. Create a task to run **every Friday at 5 PM**.
+2. Create a task to run **every 7 minutes**.
+3. Create a task to run on **October 10th at 10:10 AM**.
+4. Create a task to run **every 3 hours**.
+5. Create a task to run **twice a day at 8 AM and 8 PM**.
+6. Create a task to run **every Wednesday between the 1st and 15th of each month**.
+
+---
+
+
+---
+
+## $${\color{magenta}\textbf{File Permissions}}$$
+1. Create a group named **hogwarts**.
+2. Create three users: **harry**, **hermione**, and **ron**, and assign them to the **hogwarts** group.
+3. Create a directory named `documents` in the root (`/`) directory.
+4. Assign ownership of the `documents` directory to the **harry** user and the **hogwarts** group.
+5. Set the permissions of the `documents` directory to `rwxr-x---` using `chmod`.
+6. Ensure that only the owner (**harry**) can read, write, and execute within the directory, while members of the **hogwarts** group can only read and traverse (cd) into the directory.
+
+---
