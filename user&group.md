@@ -100,7 +100,7 @@ groupadd avengers
 
 ![image](https://github.com/user-attachments/assets/350fdc3b-89e7-4f6c-9a6f-462a58681d96)
 
-
+![image](https://github.com/user-attachments/assets/d285f4fb-8013-494b-b553-79ec1fb7a27c)
 
 **Add a User to a Group**
 ````
