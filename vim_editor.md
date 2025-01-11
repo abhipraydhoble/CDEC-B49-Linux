@@ -1,7 +1,7 @@
 # $$\color{blue}\textbf{Vi / Vim Editor}$$
 
 ## $$\color{green}\textbf {Modes of vi/vim editor:}$$
-1. **$$\color{red}\textbf{Command Mode}$$**
+1. **$$\color{red}\textbf{Command Mode(default)}$$**
 2. **$$\color{orange}\textbf{Insert Mode}$$**
 3. **$$\color{purple}\textbf{Execution Mode}$$**
 4. **$$\color{brown}\textbf{Visual Mode}$$**
