@@ -24,7 +24,20 @@
   ````
 
 ![image](https://github.com/user-attachments/assets/ffaaaf2e-e67c-4bf5-b518-a79eff53701b)
-                                |
+
+
+| **No.** | **Attribute**                   | **Description**                                                                 |
+|---------|---------------------------------|---------------------------------------------------------------------------------|
+| 1       | **File Type**                   | Indicates the type of file (normal file, directory, link, block, character, pipe). |
+| 2       | **Owner Permissions**          | Permissions granted to the owner of the file/directory (read, write, execute).  |
+| 3       | **Group Permissions**          | Permissions granted to the group associated with the file/directory.            |
+| 4       | **Other User Permissions**     | Permissions granted to other users (not owner or group).                        |
+| 5       | **Link Count**                  | The number of links or references to the file.                                  |
+| 6       | **Owner of File/Directory**    | The username of the owner.                                                     |
+| 7       | **Group Owner of File/Directory** | The group associated with the file/directory.                                   |
+| 8       | **File Size**                   | Size of the file in bytes.                                                     |
+| 9       | **Creation Date and Time**      | The date and time when the file or directory was created or last modified.      |
+| 10      | **File/Directory Name**         | The name of the file or directory.                                             |
 
 
 
@@ -83,6 +96,32 @@ The directory `demo` is owned by user `root`. To change ownership to user `abhi`
    ```
 
 
+
+# $${\color{blue}\textbf{Umask}}$$
+
+### $${\color{green}\textbf{Default Permissions}}$$
+The `umask` command is used to set default permissions for files and directories.
+
+#### $${\color{orange}\textbf{Root User: umask 022}}$$
+1. **File Permissions:** `644` → `rw- r-- r--`
+2. **Directory Permissions:** `755` → `rwx r-x r-x`
+
+#### $${\color{purple}\textbf{Example (Directory):}}$$
+Maximum permission - Default permission = `umask`
+
+- $${\color{cyan}777 - 755 = 022}$$  
+- $${\color{cyan}777 - 032 = 745}$$
+
+#### $${\color{purple}\textbf{Example (File):}}$$
+Maximum permission - Default permission = `umask`
+
+- $${\color{cyan}666 - 644 = 022}$$
+
+#### $${\color{orange}\textbf{Local User: umask 002}}$$
+1. **File Permissions:** `664` → `rw- rw- r--` → $${\color{cyan}666 - 664 = 002}$$
+2. **Directory Permissions:** `775` → `rwx rwx r-x` → $${\color{cyan}777 - 775 = 002}$$
+
+---
 #### $${\color{orange}\textbf{Root User:}}$$
 1. **File Permissions:** `644` → `rw- r-- r--`
 2. **Directory Permissions:** `755` → `rwx r-x r-x`
@@ -141,3 +180,45 @@ chmod 775 <directory>
 
 ---
 ![image](https://github.com/user-attachments/assets/d2f676e1-65c1-480e-bd43-a173f90866da)
+
+
+## $${\color{blue}\textbf{ACL: Access Control List}}$$
+
+Access Control List (ACL) is used to grant specific permissions to users for particular files or directories.
+
+### $${\color{green}\textbf{Commands:}}$$
+- **Set Permissions:**  
+```bash
+  setfacl -m u:username:rwx filename
+```
+**View Permissions**
+```
+getfacl filename
+```
+**Remove Permissions:**
+
+```
+setfacl -x u:username filename
+```
+
+## Comparison of Hard Link (HL) and Soft Link (SL)
+
+| **Aspect**       | **Hard Link (HL)**                                 | **Soft Link (SL)**                             |
+|-------------------|---------------------------------------------------|-----------------------------------------------|
+| **Purpose**       | Acts as a backup.                                 | Acts as a shortcut.                           |
+| **File Size**     | Same as the original file.                        | Different from the original file.             |
+| **Inode Number**  | Same as the original file.                        | Different from the original file.             |
+| **File Deletion** | The hard link remains unaffected if the original file is deleted. | The soft link becomes invalid if the original file is deleted. |
+| **Directories**   | Hard links to directories are not possible.       | Soft links to directories are possible.       |
+| **Link Count**    | Affects the link count (increases or decreases by 1. | Does not affect the link count.              |
+
+
+
+### Hard Link Command
+````
+ln filename hardlink
+````
+### Soft Link File
+````
+ln -s filename softlink
+````
