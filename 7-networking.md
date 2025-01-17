@@ -12,6 +12,7 @@ A seven-layer framework for understanding how networking systems communicate:
 - $${\color{gray}\textbf{Physical Layer}}$$: Converts into bit streams (binary) and sends via mediums like Wi-Fi or Ethernet.
 
 ---
+
 ![image](https://github.com/user-attachments/assets/53d96833-39fb-47fd-9ae4-89590fa92186)
 
 ---
@@ -31,7 +32,7 @@ Devices facilitating network management:
 - $${\color{purple}\textbf{Switch}}$$: Intelligent traffic management with high port count (Layer 2).
 - $${\color{red}\textbf{Router}}$$: Routes data across networks using IP addresses (Layer 3).
 ---
-![image](https://github.com/user-attachments/assets/3ce486f5-81d9-4030-b5ab-6262de367fa8)
+  ![image](https://github.com/user-attachments/assets/3ce486f5-81d9-4030-b5ab-6262de367fa8)
 
 - $${\color{blue}\textbf{Bus Topology}}$$: Single cable connecting devices.
 - $${\color{orange}\textbf{Star Topology}}$$: Devices connect to a central hub.
@@ -47,7 +48,6 @@ Devices facilitating network management:
 - $${\color{purple}\textbf{WAN (Wide Area Network)}}$$: Spans large geographic areas (e.g., the Internet).
 
 ---
-
 ![image](https://github.com/user-attachments/assets/abb6d55d-6dd8-4551-902b-1166eed64384)
 
 
