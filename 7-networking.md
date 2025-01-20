@@ -33,7 +33,8 @@ Devices facilitating network management:
 - $${\color{purple}\textbf{Switch}}$$: Intelligent traffic management with high port count (Layer 2).
 - $${\color{red}\textbf{Router}}$$: Routes data across networks using IP addresses (Layer 3).
 ---
-  ![image](https://github.com/user-attachments/assets/3ce486f5-81d9-4030-b5ab-6262de367fa8)
+![image](https://github.com/user-attachments/assets/b0a31f5f-2b4e-4a55-82cb-04a6182ec00d)
+
 
 - $${\color{blue}\textbf{Bus Topology}}$$: Single cable connecting devices.
 - $${\color{orange}\textbf{Star Topology}}$$: Devices connect to a central hub.
