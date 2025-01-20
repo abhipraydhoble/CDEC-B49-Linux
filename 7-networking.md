@@ -50,7 +50,8 @@ Devices facilitating network management:
 - $${\color{purple}\textbf{WAN (Wide Area Network)}}$$: Spans large geographic areas (e.g., the Internet).
 
 ---
-![image](https://github.com/user-attachments/assets/abb6d55d-6dd8-4551-902b-1166eed64384)
+![image](https://github.com/user-attachments/assets/6c97e030-4dfd-49f6-96f3-1c129684b08e)
+
 
 
 ## $${\color{green}\textbf{6. IP Addressing}}$$
@@ -69,7 +70,8 @@ Key terms:
 ## $${\color{green}\textbf{7. Protocols: TCP vs UDP}}$$
 - $${\color{blue}\textbf{TCP (Transmission Control Protocol)}}$$: Reliable data transmission.
 - $${\color{orange}\textbf{UDP (User Datagram Protocol)}}$$: Fast but less reliable.
-![image](https://github.com/user-attachments/assets/aee2684b-e5ec-4cce-a6fb-24b7f291db43)
+![image](https://github.com/user-attachments/assets/9a59ac6a-25a0-406f-9aea-0b76818dc723)
+
 ---
 
 ## $${\color{green}\textbf{Author}}$$
