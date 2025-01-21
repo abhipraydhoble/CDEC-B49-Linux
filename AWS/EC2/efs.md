@@ -11,7 +11,7 @@
 2. **Launch Instances**
    - Launch two instances in different availability zones (AZs).
      
-   [image](https://github.com/user-attachments/assets/1ae79377-def5-4fbd-8b38-57fe9de265ee)
+   ![image](https://github.com/user-attachments/assets/1ae79377-def5-4fbd-8b38-57fe9de265ee)
 
    - Login to both instances.
    - Create a directory named `efs`:
