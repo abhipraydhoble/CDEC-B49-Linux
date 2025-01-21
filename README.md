@@ -123,3 +123,6 @@ cd dirname
 ````
 pwd
 ````
+
+
+![Image](https://github.com/user-attachments/assets/fe4e68ee-0139-4e8f-9d27-b15f443fd5c3)
