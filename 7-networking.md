@@ -13,7 +13,9 @@ A seven-layer framework for understanding how networking systems communicate:
 
 ---
 
-![image](https://github.com/user-attachments/assets/82a378b6-2764-4c61-acd0-b514fead068b)
+![image](https://github.com/user-attachments/assets/0a3bad9c-f99d-4664-8a82-61cd77966c49)
+
+![image](https://github.com/user-attachments/assets/03e58480-e916-45d8-aa29-de672e3399e8)
 
 
 ---
