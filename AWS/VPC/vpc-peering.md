@@ -1,3 +1,9 @@
+# VPC PEERING
+
+![image](https://github.com/user-attachments/assets/595c435b-e636-4eb0-a1da-e80845aa0fc1)
+
+
+
 # create two vpc's
 
 ![image](https://github.com/user-attachments/assets/20965207-7de7-484c-995e-15b1ef4a98bd)
